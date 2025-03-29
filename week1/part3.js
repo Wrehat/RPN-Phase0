@@ -76,9 +76,9 @@ console.log('---------------------------------');
 // Block Scope
 // Variable yang dideklarasikan dalam sebuah block hanya bisa diakses di dalam block tersebut.
 if (true) {
-    var blockVar = "Ini adalah block variable"; // var tidak mengenal block scope
-    let blockLet = "Ini adalah block variable";
-    const blockConst = "Ini adalah block variable";
+    var blockVar = "Ini adalah block variable var"; // var tidak mengenal block scope
+    let blockLet = "Ini adalah block variable let"; // let mengenal block scope
+    const blockConst = "Ini adalah block variable const"; // const mengenal block scope
     console.log(blockVar);
     console.log(blockLet);
     console.log(blockConst);
@@ -99,7 +99,7 @@ let hoistingLet = "Ini adalah hoisting let";
 const hoistingConst = "Ini adalah hoisting const";
 
 console.log('---------------------------------');
-// ------------------------------------------------------------------------------------------------------------
+
 
 // LOGGING
 //Logging dalam JavaScript adalah cara untuk menampilkan informasi, data, atau pesan untuk keperluan debugging dan monitoring.
